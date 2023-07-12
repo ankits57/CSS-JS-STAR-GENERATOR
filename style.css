@@ -160,9 +160,12 @@ body{
 
 
 .option{
-    margin-top: 25%;
-    margin-left: 40%;
-
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  display: flex;
+  margin-left: -120px;
+  flex-direction: row;
 }
 
 #input{
